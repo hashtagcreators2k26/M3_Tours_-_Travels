@@ -44,9 +44,9 @@ h1 span:nth-child(2){color:var(--p)}.lead{max-width:50ch;font-size:1.1rem;color:
 .scene:hover .cube{animation-play-state:paused}
 @keyframes spin{from{transform:rotateX(-18deg) rotateY(0)}to{transform:rotateX(-18deg) rotateY(360deg)}}
 .face{position:absolute;inset:0;border-radius:18px;border:6px solid #fff;background-size:cover;background-position:center;box-shadow:0 20px 40px -12px rgba(8,120,185,.5)}
-.f1{background-image:url(../assets/tirupati.jpg);transform:translateZ(105px)}.f2{background-image:url(../assets/kerala.jpg);transform:rotateY(90deg) translateZ(105px)}
-.f3{background-image:url(../assets/goa.jpg);transform:rotateY(180deg) translateZ(105px)}.f4{background-image:url(../assets/dubai.jpg);transform:rotateY(-90deg) translateZ(105px)}
-.f5{background-image:url(../assets/air.jpg);transform:rotateX(90deg) translateZ(105px)}.f6{background-image:url(../assets/bus.jpg);transform:rotateX(-90deg) translateZ(105px)}
+.f1{background-image:url(tirupati.jpg);transform:translateZ(105px)}.f2{background-image:url(kerala.jpg);transform:rotateY(90deg) translateZ(105px)}
+.f3{background-image:url(goa.jpg);transform:rotateY(180deg) translateZ(105px)}.f4{background-image:url(dubai.jpg);transform:rotateY(-90deg) translateZ(105px)}
+.f5{background-image:url(air.jpg);transform:rotateX(90deg) translateZ(105px)}.f6{background-image:url(bus.jpg);transform:rotateX(-90deg) translateZ(105px)}
 .chip{position:absolute;background:#fff;padding:.4rem .9rem;border-radius:99px;font-weight:600;font-size:.88rem;box-shadow:var(--sh);animation:bob 5s ease-in-out infinite}
 .ch1{top:10%;left:2%}.ch2{top:22%;right:0;animation-delay:-1s}.ch3{bottom:14%;left:6%;animation-delay:-2s}.ch4{bottom:6%;right:6%;animation-delay:-3s}
 @keyframes bob{50%{transform:translateY(-14px)}}
