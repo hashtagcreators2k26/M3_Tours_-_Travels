@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>M3 Tours & Travels | South India Tour Operator, Madurai</title>
+<meta name="description" content="M3 Tours & Travels, South India tour operator in Madurai. Tirupati, Kerala, Kodaikanal, Goa, Dubai packages, car rentals, rail, bus and air tickets.">
+<meta name="theme-color" content="#0878B9">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader" aria-hidden="true"><div class="plane">✈</div><p>Packing your bags…</p></div>
+<div class="wm" aria-hidden="true"></div>
+
+<header id="nav">
+  <a class="brand" href="#home" aria-label="M3 Tours & Travels home"><img src="assets/logo.jpg" alt="M3 Tours & Travels logo"></a>
+  <nav id="menu" aria-label="Main">
+    <a href="#home">Home</a><a href="#about">About Us</a><a href="#services">Services</a><a href="#packages">Tour Packages</a><a href="#fleet">Our Fleet</a><a href="#gallery">Gallery</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a>
+    <a class="btn btn-o menu-cta" href="#booking">Book Your Trip</a>
+  </nav>
+  <a class="btn btn-o nav-cta" href="#booking">Book Your Trip</a>
+  <button id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="sky"><i class="cloud c1"></i><i class="cloud c2"></i><i class="cloud c3"></i><svg class="hills" viewBox="0 0 1440 220" preserveAspectRatio="none"><path d="M0 150 Q180 40 360 120 T720 100 T1080 110 T1440 70 V220 H0Z" fill="#cfeaf8"/><path d="M0 190 Q240 100 480 160 T960 150 T1440 140 V220 H0Z" fill="#F8FBFF"/></svg></div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="tag">South India tour operator · Madurai</p>
+      <h1><span>Your Journey,</span> <span>Our Responsibility.</span></h1>
+      <p class="lead">Discover new destinations, enjoy comfortable journeys, and travel with confidence. Your perfect trip starts with M3 Tour and Travels.</p>
+      <div class="cta-row"><a class="btn btn-o" href="#packages">Explore Packages</a><a class="btn btn-g" href="#booking">Book Your Journey</a></div>
+    </div>
+    <div class="scene" id="scene" aria-hidden="true">
+      <div class="cube">
+        <div class="face f1"></div><div class="face f2"></div><div class="face f3"></div><div class="face f4"></div><div class="face f5"></div><div class="face f6"></div>
+      </div>
+      <span class="chip ch1">🛕 Tirupati</span><span class="chip ch2">🌴 Kerala</span><span class="chip ch3">🏝 Goa</span><span class="chip ch4">🏙 Dubai</span>
+    </div>
+  </div>
+  <form class="wrap search" id="searchForm" novalidate aria-label="Search trips">
+    <label>Pickup<input name="pickup" placeholder="e.g. Madurai" required></label>
+    <label>Drop<input name="drop" placeholder="e.g. Kodaikanal" required></label>
+    <label>Travel date<input type="date" name="date" required></label>
+    <label>Passengers<input type="number" name="pax" min="1" max="60" value="2" required></label>
+    <label>Travel type<select name="type"></select></label>
+    <button class="btn btn-o" type="submit">Search Trips</button>
+  </form>
+</section>
+
+<section id="about" class="sec">
+  <div class="wrap about-grid">
+    <div class="about-img" data-tilt><img src="assets/tirupati.jpg" alt="Lord Balaji darshan, a popular M3 package" loading="lazy"><img class="inset" src="assets/hotel.jpg" alt="Comfortable hotel room" loading="lazy"></div>
+    <div>
+      <h2>Travel Beyond Expectations.</h2>
+      <p>M3 Tours & Travels is a South India tour operator that plans comfortable, reliable and convenient journeys for families, couples, pilgrims, corporate teams and groups. From pilgrim circuits to beach holidays and Dubai, one team handles the tickets, stay, food and transport.</p>
+      <div class="mv">
+        <div><h3>Our Mission</h3><p>Safe, pleasant journeys with 24-hour genuine service and warm hospitality.</p></div>
+        <div><h3>Our Vision</h3><p>To be the travel partner people trust for every trip across South India and beyond.</p></div>
+      </div>
+      <h3>Why choose M3 Tour and Travels?</h3>
+      <ul class="ticks">
+        <li>Qualified, experienced guides</li>
+        <li>Packages include Balaji special entry ticket, A/c or Non A/c deluxe rooms and pure veg meals</li>
+        <li>Transport costs covered: tax, toll, permit, parking and driver batta</li>
+        <li>Rail, bus, air tickets and luxury car rentals handled under one roof</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="sec tint"><div class="wrap">
+  <h2 class="c">Everything for your trip, in one place</h2><div class="grid g3" id="serviceGrid"></div>
+</div></section>
+
+<section id="packages" class="sec"><div class="wrap">
+  <h2 class="c">Tour packages</h2>
+  <p class="sub c">Itineraries taken from M3's brochure. Prices are not published here, so please ask for a quote. Thailand, Andaman and Dubai details are placeholders until confirmed.</p>
+  <div class="filters" id="filters" role="tablist" aria-label="Package categories"></div>
+  <div class="grid g3" id="pkgGrid"></div>
+</div></section>
+
+<section id="fleet" class="sec tint"><div class="wrap">
+  <h2 class="c">Our fleet</h2><p class="sub c">Demo specifications. Actual vehicles, capacity and availability will be confirmed by M3 when you enquire.</p>
+  <div class="grid g3" id="fleetGrid"></div>
+</div></section>
+
+<section id="booking" class="sec"><div class="wrap book">
+  <div class="book-info">
+    <h2>Plan your trip with us</h2>
+    <p>Fill in the details and check the summary. You can send it straight to M3 on WhatsApp.</p>
+    <p class="note">Demo form: nothing is saved or booked from this page.</p>
+  </div>
+  <form id="bookForm" novalidate>
+    <label>Customer name <b>*</b><input name="name" autocomplete="name" required><small></small></label>
+    <label>Phone number <b>*</b><input name="phone" inputmode="tel" autocomplete="tel" placeholder="10-digit mobile" required><small></small></label>
+    <label>Pickup location <b>*</b><input name="pickup" required><small></small></label>
+    <label>Drop location <b>*</b><input name="drop" required><small></small></label>
+    <label>Travel date <b>*</b><input type="date" name="date" required><small></small></label>
+    <label>Return date (optional)<input type="date" name="ret"><small></small></label>
+    <label>Passengers <b>*</b><input type="number" name="pax" min="1" max="60" value="2" required><small></small></label>
+    <label>Vehicle preference<select name="vehicle"></select></label>
+    <label>Travel type<select name="type"></select></label>
+    <label class="full">Additional requirements<textarea name="notes" rows="3"></textarea></label>
+    <button class="btn btn-o full" type="submit">Review Enquiry</button>
+  </form>
+</div></section>
+
+<section id="reviews" class="sec tint"><div class="wrap">
+  <h2 class="c">What travellers say</h2><p class="sub c">Sample placeholders only. Genuine reviews will replace these once supplied.</p>
+  <div class="car"><button class="nb" id="rPrev" aria-label="Previous review">‹</button><div class="track" id="rTrack"></div><button class="nb" id="rNext" aria-label="Next review">›</button></div>
+  <div class="dots" id="rDots"></div>
+</div></section>
+
+<section id="gallery" class="sec"><div class="wrap">
+  <h2 class="c">Gallery</h2><p class="sub c">Photos from M3 brochures. Better photography can be swapped in.</p>
+  <div class="filters" id="gFilters"></div><div class="gal" id="galGrid"></div>
+</div></section>
+
+<section id="contact" class="sec tint"><div class="wrap contact">
+  <div>
+    <h2>Contact us</h2>
+    <ul class="info" id="info"></ul>
+    <a class="btn btn-g" id="waCta" target="_blank" rel="noopener">Chat on WhatsApp</a>
+    <div class="map"><div><b>Map preview unavailable</b><span>Please contact us for directions.</span></div></div>
+  </div>
+  <form id="contactForm" novalidate>
+    <h3>Send a message</h3>
+    <label>Name <b>*</b><input name="name" required><small></small></label>
+    <label>Phone or email <b>*</b><input name="contact" required><small></small></label>
+    <label>Message <b>*</b><textarea name="msg" rows="4" required></textarea><small></small></label>
+    <button class="btn btn-o" type="submit">Send Message</button>
+  </form>
+</div></section>
+</main>
+
+<footer>
+  <div class="wrap fgrid">
+    <div><img src="assets/logo.jpg" alt="M3 Tours & Travels" class="flogo"><p>Trust me a safe journey. South India tour operator for packages, tickets and car rentals.</p><div class="soc"><a href="#" data-soon="Facebook">Facebook</a><a href="#" data-soon="Instagram">Instagram</a><a href="#" data-soon="YouTube">YouTube</a></div></div>
+    <div><h4>Quick links</h4><a href="#about">About Us</a><a href="#packages">Tour Packages</a><a href="#fleet">Our Fleet</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></div>
+    <div><h4>Services</h4><a href="#services">Tour packages</a><a href="#services">Airport pickup & drop</a><a href="#services">Corporate travel</a><a href="#services">Wedding & events</a></div>
+    <div><h4>Reach us</h4><ul class="info light" id="finfo"></ul></div>
+  </div>
+  <p class="copy">© <span id="yr"></span> M3 Tours & Travels. Sample website by <b>#Creators</b>. Demo prototype, not a live booking system.</p>
+</footer>
+
+<a class="wa" id="waFloat" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp</a>
+<button id="top" aria-label="Back to top">↑</button>
+<a class="sticky-cta" href="#booking">Book Your Trip</a>
+<div class="creators">#Creators</div>
+<div id="toasts" aria-live="polite"></div>
+<div id="modal" class="modal" hidden><div class="mbox" role="dialog" aria-modal="true" aria-labelledby="mTitle"><button class="x" aria-label="Close">×</button><div id="mBody"></div></div></div>
+<div id="lb" class="modal dark" hidden><button class="x" aria-label="Close">×</button><button class="nb l" aria-label="Previous">‹</button><img alt=""><button class="nb r" aria-label="Next">›</button></div>
+<script src="main.js"></script>
+</body>
+</html>
